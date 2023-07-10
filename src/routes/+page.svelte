@@ -22,7 +22,7 @@
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		hahahaah
 	</h2>
 
 	<Counter />
