@@ -21,8 +21,10 @@ class Perceptron:
             self.errors_.append(errors)
         return self
 
+    # Sum of products of the input features and the weights
     def net_input(self, X):
         return np.dot(X, self.w_) + self.b_
     
+    # Threshold function
     def predict(self, X):
         return np.where(self.net_input(X) >= 0, 1, 0)
